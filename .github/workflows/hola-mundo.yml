@@ -10,6 +10,6 @@ jobs:
       - name: Definir variable
         run: echo "USERNAME=${{ github.actor }}" >> $GITHUB_ENV
       - name: Setup Node.js environment
-        uses: actions/setup-node@v3.9.0   
+        uses: actions/setup-node@v3
       - name: Correr script
         run: node hola_mundo.js
